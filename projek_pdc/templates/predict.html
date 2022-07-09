@@ -13,12 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
         <title>PadDoc - Your Paddy Doctor</title>
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+
 </head>
 <body id="predict-body">
   <ul class="nav-mid">
     <li><a class="fw-bold" href="{{ url_for('index') }}">Home</a></li>
     <li><a class="active fw-bold" href="{{ url_for('predict') }}">Paddy Predict</a></li>
-    <li><a class="fw-bold" href="/info.html/">Info</a></li>
+    <li><a class="fw-bold"  href="{{ url_for('info') }}">Info</a></li>
   </ul>
   <div class="container">
     
