@@ -5,10 +5,15 @@ For training this model, dataset can be found at: https://drive.google.com/drive
 
 For the model can be downloaded here: https://drive.google.com/drive/folders/1Iftd-faMh1D87C7xeVXyWnrIK1rIvSVZ?usp=sharing
 
+For paddoc android app can be downloaded here: https://drive.google.com/file/d/1LI5GpNNPQLDvCPjjB_nWOhI554mnjvAf/view?usp=sharing
+
 This project provide the following:
-1. Paddoc Website 
+1. Paddoc Website
+2. Paddoc Android App 
 2. Fix extension function
 3. Hue based segmentation function
+4. Color balanced function
+5. Bilateral filter function
 
 ##### Requirements
 Python 3.8.1 and its dependencies:
@@ -19,6 +24,12 @@ Python 3.8.1 and its dependencies:
 5. opencv-python
 6. skimage
 7. flask
+
+Kotlin 
+
+Android Studio
+
+
 
 
 
