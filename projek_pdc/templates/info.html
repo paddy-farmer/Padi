@@ -13,12 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
         <title>PadDoc - Your Paddy Doctor</title>
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+
 </head>
 <body id="predict-body">
   <ul class="nav-mid">
     <li><a class="fw-bold" href="{{ url_for('index') }}">Home</a></li>
     <li><a class="fw-bold" href="{{ url_for('predict') }}">Paddy Predict</a></li>
-    <li><a class="active fw-bold" href="/info.html/">Info</a></li>
+    <li><a class="active fw-bold" href="{{ url_for('info') }}">Info</a></li>
   </ul>
   <div class="container">
     
@@ -28,7 +30,7 @@
     
         <div class="row row-cols-lg-4 row-cols-1 img-container-modal ">
             <div class="card card-modal">
-              <img style="margin-top: 1rem !important;"src="images/tungro.jpg">
+              <img style="margin-top: 1rem !important;"src="../static/images/tungro.jpg">
               <div class="container">
                 <h4 class="text-center"><b>Tungro</b></h4>
                 <!-- Button trigger modal Tungro -->
@@ -44,7 +46,7 @@
                             <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                     <div class="modal-body">
-                                        <img class = "modal-img" src="images/tungro.jpg">
+                                        <img class = "modal-img" src="../static/images/tungro.jpg">
                                         <h5 class= "sub">Definisi</h5> <p>Penyakit tungro merupakan penyakit padi yang disebabkan oleh dua jenis virus yaitu virus yang berbentuk batang atau virus batang tungro padi Rice tungro bacilliform virus (RTBV), dan virus berbentuk bulat atau virus bulat tungro padi Rice tungro spherical virus (RTSV). Kedua virus tersebut ditularkan oleh beberapa spesies wereng hijau dan wereng daun lainnya. </p> <br>
                                         <h5 class= "sub">Gejala</h5> <p>Gejala utama penyakit tungro terlihat pada perubahan warna daun terutama pada daun muda berwarna kuning oranye dimulai dari ujung daun. Daun muda agak menggulung, jumlah anakan berkurang, tanaman kerdil dan pertumbuhan terhambat. Gejala biasanya mulai tampak pada 6-15 hari setelah terinfeksi, tetapi penyakit ini tidak mempengaruhi terhadap kerusakan dan gagal panen.</p> <br>
                                         <h5 class= "sub">Cara Pengendalian</h5> <p>Mengingat banyak faktor yang mempengaruhi perkembangan penyakit tungro, maka  pengendalian penyakit tungro yang dianjurkan adalah dengan mengintegrasikan komponen-komponen pengendalian dalam satu system yang dikenal dengan konsep pengendalian penyakit secara terpadu. Beberapa teknologi pengendalian tungro yang dianjurkan adalah tanam serempak, pengaturan waktu tanam, varietas tahan, sanitasi lingkungan, dan penyemprotan insektisida.</p>
@@ -61,7 +63,7 @@
 
         
             <div class="card card-modal">
-              <img style="margin-top: 1rem !important;" src="images/blb.jpg">
+              <img style="margin-top: 1rem !important;" src="../static/images/blb.jpg">
               <div class="container">
                 <h4 class="text-center"><b>Bacterial Leaf Blight</b></h4>
                 <!-- Button trigger modal BLB -->
@@ -77,7 +79,7 @@
                             <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                     <div class="modal-body">
-                                        <img class = "modal-img" src="images/blb.jpg">
+                                        <img class = "modal-img" src="../static/images/blb.jpg">
                                         <h5 class= "sub">Definisi</h5> <p>Penyakit hawar daun bakteri (HDB) merupakan salah satu penyakit pad tanamam padi. Penyakit ini disebabkan oleh bakteri Xanthomonas oryzae pv. oryzae (Xoo). Penyebab penyakit (patogen) menginfeksi tanaman padi pada bagian daun melalui luka daun atau lobang alami berupa stomata dan merusak klorofil daun.</p> <br>
                                         <h5 class= "sub">Gejala</h5> <p>Bila serangan terjadi pada awal pertumbuhan, tanaman menjadi layu dan mati, gejala ini disebut kresek. Gejala kresek sangat mirip dengan gejala sundep yang timbul akibat serangan penggerek batang pada fase tenaman vegetatif. Pada tanaman dewasa penyakit hawar daun bakteri menimbulkan gejala hawa (blight). Baik gejala kresek maupun hawar, gejala dimulai dari tepi daun, berwarna keabu-abuan dan lama-lama daun menjadi kering. Bila serangan terjadi saat berbunga, proses pengisian gabah menjadi tidak sempurna, menyebabkan gabah tidak terisi penuh atau bahkan hampa. Pada kondisi seperti ini kehilangan hasil mencapai 50-70 persen.</p> <br>
                                         <h5 class= "sub">Cara Pengendalian</h5> <p>Cara yang dapat digunakan untuk menekan perkembangan penyakit hawar daun bakteri disarankan tidak memupuk tanaman dengan Nitrogen secara berlebihan, gunakan pupuk Kalium dan tidak menggenangi pertanaman secara terus menerus, sebaiknya pengairan dilakukan secara berselang (intermiten).</p>
@@ -94,7 +96,7 @@
 
         
             <div class="card card-modal">
-              <img  style="margin-top: 1rem !important;" src="images/blas.jpg">
+              <img  style="margin-top: 1rem !important;" src="../static/images/blas.jpg">
               <div class="container">
                 <h4 class="text-center"><b>Blast</b></h4>
                 <!-- Button trigger modal blas -->
@@ -110,7 +112,7 @@
                             <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                                 <div class="modal-body">
-                                    <img class = "modal-img" src="images/blas.jpg">
+                                    <img class = "modal-img" src="../static/images/blas.jpg">
                                     <h5 class= "sub">Definisi</h5> <p>Penyakit blas disebabkan oleh jamur Pyricularia grisea. Jamur P. grisea dapat menginfeksi pada semua fase pertumbuhan tanaman padi mulai dari persemaian sampai menjelang panen. Pada fase bibit dan pertumbuhan vegetatif tanaman padi, P. grisea menginfeksi bagian daun dan menimbulkan bercak coklat berbentuk belah ketupat yang disebut blas daun.</p> <br>
                                     <h5 class= "sub">Gejala</h5> <p>Perkembangan parah penyakit blas leher infeksinya dapat mencapai bagian gabah dan patogennya dapat terbawa gabah sebagai patogen tular benih (seed borne). Pada lingkungan yang kondusif, blas daun berkembang pesat dan kadang-kadang dapat menyebabkan kematian tanaman. Penyakit blas leher dapat menurunkan hasil secara nyata karena menyebabkan leher malai mengalami busuk atau patah sehingga proses pengisian malai terganggu dan banyak terbentuk bulir padi hampa. Gangguan penyakit blas leher di daerah endemis sering menyebabkan tanaman padi menjadi puso.</p> <br>
                                     <h5 class= "sub">Cara Pengendalian</h5> <p>Faktor-faktor yang mempengaruhi perkembangan penyakit blas yaitu tanah, pengairan, kelembaban, suhu, pupuk dan ketahanan varietas. Faktor-faktor tersebut merupakan komponen epidemi penyakit yang dapat dikelola untuk tujuan pengendalian penyakit blas. Upaya untuk mengendalikan penyakit blas melalui pengelolaan komponen epidemi secara terpadu mempunyai peluang keberhasilan tinggi.</p>
@@ -128,7 +130,7 @@
 
         
             <div class="card card-modal">
-              <img  style="margin-top: 1rem !important;" src="images/brownspot.png">
+              <img  style="margin-top: 1rem !important;" src="../static/images/brownspot.png">
               <div class="container">
                 <h4 class="text-center"><b>Brown Spot</b></h4>
                  <!-- Button trigger modal BS -->
@@ -144,7 +146,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <img class = "modal-img" style="margin-left: 165px !important;" src="images/brownspot.png">
+                                <img class = "modal-img" style="margin-left: 165px !important;" src="../static/images/brownspot.png">
                                 <h5 class= "sub">Definisi</h5> <p>Penyakit brown spot disebabkan oleh jamur Cochliobolus miyabeanus. Jamur ini dapat bertahan hidup dalam benih selama lebih dari empat tahun dan menyebar dari satu tanaman ke tanaman lainnya melalui spora yang ada di udara. Sisa-sisa tanaman terinfeksi yang tertinggal di lahan dan gulma adalah penyebab umum lainnya penyebaran penyakit ini. </p> <br>
                                 <h5 class= "sub">Gejala</h5> <p>Penyakit ini ditandai oleh berbagai gejala. Namun, adanya bercak-bercak coklat bundar atau oval dengan lingkaran kuning selama tahap anakan adalah tanda-tanda infeksi yang paling nyata. Ketika bercak-bercak tersebut membesar, pusat abu-abu muncul di tengah-tengah dan tepian coklat kemerahan terlihat. Perubahan warna batang adalah gejala karakteristik lainnya. Pada varietas yang rentan, luka dapat mencapai panjang 5−14 mm dan dapat menyebabkan daun layu. Pada varietas yang resisten, lukanya berwarna kuning kecoklatan dan seukuran kepala peniti. Infeksi pada kuntum menyebabkan pengisian bulir tidak sempurna atau terganggu dan menurunkan kualitas gabah. </p> <br>
                                 <h5 class= "sub">Cara Pengendalian</h5> <p>Untuk meyakinkan bahwa benih tidak terkontaminasi, disarankan merendam benih dalam air panas (53 - 54 °C) selama 10 hingga 12 menit. Untuk hasil yang lebih baik, tempatkan benih selama 8 jam dalam air dingin sebelum perlakuan air panas tersebut atau menggunakan fungisida (misalnya iprodion, propikonazol, azoksistrobin, trifloksistrobin) untuk perlakuan benih.</p>
@@ -160,7 +162,7 @@
         
 
             <div class="card card-modal">
-              <img style="margin-top: 1rem !important;" src="images/leafsmut.jpg">
+              <img style="margin-top: 1rem !important;" src="../static/images/leafsmut.jpg">
               <div class="container">
                 <h4 class="text-center"><b>Leaf Smut</b></h4>
                   <!-- Button trigger modal leafsmut -->
@@ -176,7 +178,7 @@
                             <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <img class = "modal-img" style="margin-left: 165px !important;" src="images/leafsmut.jpg">
+                                <img class = "modal-img" style="margin-left: 165px !important;" src="../static/images/leafsmut.jpg">
                                 <h5 class= "sub">Definisi</h5> <p>Penyakit daun padi ini disebabkan oleh jamur bernama Entyloma oryzae dan membentuk bintik-bintik kecil berupa garis-garis pendek, bulat atau lonjong, panjang 0,5-5 mm dan lebar 0,5-1,5 mm. Biasanya menyebabkan kerusakan yang cukup parah, daun menguning dan mengering.</p> <br>
                                 <h5 class= "sub">Gejala</h5> <p> Gejala penyakit berupa bintik-bintik kecil berserakan berwarna coklat kemerahan di seluruh daun dalam bentuk yang tidak seragam. </p> <br>
                                 <h5 class= "sub">Cara Pengendalian</h5> <p>Pengendalian dapat dilakukan dengan menghilangkan jerami dan tunggul tanaman yang terinfeksi. Penyemprotan fungisida dapat dilakukan dengan captan, captafol, fentin hydroxide, mancozeb dan Copper oxychloride, carbendazim, dan fungisida tembaga yang dilaporkan efektif mengendalikan penyakit.</p>

@@ -57,6 +57,7 @@ h1{
   text-align: center;
   font-size: 45px;
   padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 h3{
@@ -81,7 +82,7 @@ h3{
 }
 .img-container-modal{
   display: flex;
-  margin-top: 20px !important;
+  margin-top: 100px !important;
 }
 
 .img-prev img{
