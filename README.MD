@@ -7,6 +7,9 @@ For the model can be downloaded here: https://drive.google.com/drive/folders/1If
 
 For paddoc android app can be downloaded here: https://drive.google.com/file/d/1LI5GpNNPQLDvCPjjB_nWOhI554mnjvAf/view?usp=sharing
 
+For our presentation video can be found here: https://drive.google.com/file/d/1ewcHIJfAl8Cuvvs45CJab4UKc7lHWIrU/view?usp=sharing
+
+
 This project provide the following:
 1. Paddoc Website
 2. Paddoc Android App 
