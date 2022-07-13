@@ -7,7 +7,7 @@ For the model can be downloaded here: https://drive.google.com/drive/folders/1If
 
 For source code Paddoc android app can be downloaded here: https://drive.google.com/file/d/1LI5GpNNPQLDvCPjjB_nWOhI554mnjvAf/view?usp=sharing
 
-For our presentation and demonstration video can be found here: https://drive.google.com/file/d/1ewcHIJfAl8Cuvvs45CJab4UKc7lHWIrU/view?usp=sharing
+For our presentation and demonstration video can be found here: https://drive.google.com/drive/folders/1_3zb0HdGc9obGVC0kb5ysybpirhFW4mZ?usp=sharing
 
 
 This project provide the following:
@@ -28,9 +28,7 @@ Python 3.8.1 and its dependencies:
 6. Skimage
 7. Flask
 
-Kotlin 
-
-Android Studio
+Kotlin & Android Studio for android app
 
 
 
